@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM 1 Campaign</title>
+    <link rel="stylesheet" href="RM1_style.css">
+</head>
+<body>
+    <header>
+    <img src="images\iium_logo.png" width="120" height="80" /><br>
+    <img src="images\rm_logo.png" width="70" height="70"/>
+    <img src="images\rm1.jpg" width="90" height="60"/>
+
+    <br>
+    <h1>RM 1 CAMPAIGN</h1>
+    <h2>Let your contributions be perpetual for the pleasure of Allah SWT.</h2>
+    <h4>"The example of those who spend their wealth in the way of Allah
+        is like a seed [of grain] which grows seven spikes; in each spikes
+        is a hundred grains. And Allah multiplies [His reward] for whom He wills.
+        And Allah is all-Encompassing and Knowing." Al Baqarah: 261
+    </h4>
+
+    </header>
+    <div class="container">
+        <div class="main-content">
+        
+            <p><b> PARTICIPATION IN RM 1 CAMPAIGN - MONTHLY SALARY DEDUCTION </b></p>
+            <div>
+                <br>
+                <p>Director<br>
+                IIUM Endowment Fund<br>
+            Level 3, Rectory Building<br>
+        International Islamic University Malaysia</p>
+        <br>
+                <label for="name">Name: <span aria aria-label="required"></span></label><br>
+                <input id="name" type="text" name="name">
+                <br><br>
+                <label for="staffno">Staff No.: <span aria aria-label="required"></span></label><br>
+                <input id="staffno" type="text" name="staffno">
+                <br><br>
+                <label for="info">K/C/D/I/O: <span aria aria-label="required"></span></label><br>
+                <input id="info" type="text" name="info"> 
+                <br><br> 
+                <label for="contact">Contact No: <span aria aria-label="required"></span></label><br>
+                <input id="contact" type="tel" name="contact">
+                <br><br>
+                <label for="mail">Email: <span aria aria-label="required"></span></label><br>
+                <input id="mail" type="email" name="mail"> 
+                <br><br>
+                <label for="amount">Amount to be Deducted (RM): <span aria aria-label="required"></span></label><br> 
+                <input id="amount" type="text" name="amount">
+                <br><br>
+                <p>The above salary deduction will take affect from <input id="startmonth" type="month"> (mm/yy) <br><br> until <input id="endmonth" type="month"> (mm/yy) or further notice.</p>
+
+            <br>
+
+            For kulliyah based,<br> <label for="kulliyah">Kulliyah of: <span aria aria-label="required"></span></label> 
+        
+            <input id="kulliyah" type="text" name="kulliyah">
+        </p>
+            <br>
+            <button type="submit">Submit</button>        
+            </div>
+        </div>
+    </div>
+<button2 onclick="topFunction()" class="scrollbttn" id="scrollbttn" title="go to top">Scroll to top</button2>
+<script>
+    window.onscroll = function(){
+        scroll();
+    }
+
+    function scroll(){
+        const scrollButton = document.getElementById('scrollbttn');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollButton.style.display = 'block';
+            } else {
+                scrollButton.style.display = 'none';
+            }
+    }
+    function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <footer>
+        <img src="images/contact_us.png" width="100" height="50"/>
+
+<p>IIUM ENDOWMENT FUND<br>
+Level 3, Rectory<br>
+International Islamic University Malaysia<br>
+P.O Box 10<br>
+50728 Kuala Lumpur<br>
+Tel: 03 6196 4268<br>
+Email: ief@iium.edu.my<br>
+Website: www.iium.edu.my/ief<br>
+Facebook: www.facebook.com/ief.official/</p>
+    </footer>
+    
+</body>
+</html>

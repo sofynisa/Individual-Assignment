@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+}
+
+
+header {
+ text-align: center;
+ background-color:white;
+ padding: 20px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+.centered-image{
+   display: block; 
+
+}
+body {
+font-family:'Times New Roman', Times, serif;
+font-size: 16px;
+line-height: 1.6;
+background-color:white;
+color: black;
+margin: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border:  2px solid #fbe3e8; 
+    
+}
+
+h1 {
+font-size: 50px;
+margin-bottom: 10px;
+letter-spacing: 2px;
+color: #5cbdb9;
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: #ebf6f5;
+
+}
+
+h2 {
+font-size: 20px;
+color:black;
+background-color: #fbe3e8;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 10px;
+border-radius: 15px;
+}
+
+h4 {
+font-size: 16px;
+color: black;
+background-color: #ebf6f5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+label {
+    font-weight: bold;
+}
+input[type=text] {
+border: none;
+border-bottom: 2px solid #5cbdb9;
+width: 100%;
+}
+input[type=tel] {
+    border: none;
+    border-bottom: 2px solid #5cbdb9;
+    width: 100%;
+    }
+input[type=email] {
+border: none;
+border-bottom: 2px solid #5cbdb9;
+width: 100%;
+    }
+
+button {
+background-color: #fbe3e8;
+padding: 10px 24px;
+text-align: center;
+border-radius: 12px;
+font-size: 15px;
+border: none;
+transition-duration: 0.4s;
+font-family: 'Times New Roman', Times, serif;
+}
+button:hover {
+    background-color: white;
+    border: solid #fbe3e8;
+}
+button2 {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5cbdb9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 15px;
+
+}
+footer {
+    text-align: center;
+    background-color: #fbe3e8;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.1;
+    margin-top: 10px;
+
+}
